@@ -1,5 +1,5 @@
 from flask import Flask, request
-import requests,os,sys,shutil
+import requests,os,sys,shutil,json
 from bs4 import BeautifulSoup
 
 app = Flask(__name__)
@@ -13,7 +13,7 @@ def get_search_results(keyword,pages=2):
         pages: INT 页数
     Returns:
         [
-            {
+            {S
                 "title": "标题",
                 "link": "https://链接/",
                 "description": "介绍"
@@ -22,9 +22,9 @@ def get_search_results(keyword,pages=2):
     """
     # 发送 HTTP 请求
     results = []
-    if os.path.exists("./cache/answer_"+keyword+str(pages)+".nsc"):
-        with open("./cache/answer_"+keyword+str(pages)+".nsc","r+",encoding="utf-8") as f:
-            results = list(f.read())
+    if os.path.exists("./cache/answer_"+keyword.replace("_","0")+"_"+str(pages)+".nsc"):
+        with open("./cache/answer_"+keyword.replace("_","0")+"_"+str(pages)+".nsc","r",encoding="utf-8") as f:
+            results = json.loads(f.read())
         return str(results)
     for i in range(pages):
         page = i * 10 
@@ -41,21 +41,24 @@ def get_search_results(keyword,pages=2):
             title = result.find("a", target="_blank").text
             link = result.find("a", target="_blank").get("href")
             try:
-                description = result.find("p", class_="b_algoSlug").text
+                description = result.find("p", class_="b_lineclamp2").text
             except:
                 try:
-                    description = result.find("p", class_="b_paractl").text
+                    description = result.find("p", class_="b_lineclamp3").text
                 except:
-                    description = "ERROR"
+                    try:
+                        description = result.find("p", class_="b_lineclamp4").text
+                    except:
+                        description = "ERROR"
 
             results.append({
-            "title": title,
-            "link": link,
-            "description": description[2:]
+            "title": str(title),
+            "link": str(link),
+            "description": str(description[2:])
             })
-    with open("./cache/answer_"+keyword+str(pages)+".nsc","w",encoding="utf-8") as f:
-        f.write(str(results))
-    return str(results)
+    with open("./cache/answer_"+keyword.replace("_","0")+"_"+str(pages)+".nsc","w",encoding="utf-8") as f:
+        f.write(json.dumps(results))
+    return json.dumps(results)
 
 # 搜索
 @app.route("/nsearch", methods=["GET"])
