@@ -3,9 +3,13 @@
     NSearchAPI
 </h1>
 <h4 align="center">
-    为搜索而生， <br/>
+    ✨为搜索而生， <br/>
     爬虫 Bing 搜索结果接口方便开发。
 </h4>
+
+<div align="center"><img src="https://github.com/user-attachments/assets/21142d43-9074-43f1-9a94-60d2bb003672" /><img width="149" alt="image" src="https://github.com/user-attachments/assets/1165a6cf-d40e-4f42-af8a-10c8cf1ddea5" />
+</div>
+
 <h4 align="center">
     简体中文 | 
     <a href="#">繁體中文</a> | 
