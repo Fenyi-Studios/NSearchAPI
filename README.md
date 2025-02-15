@@ -1,5 +1,11 @@
-![o0XKYOJaxs-0x512](https://github.com/user-attachments/assets/817e1db4-5c8e-4e67-9d5f-db895327c618)
 <h1 align="center">
+    <img 
+    src="https://github.com/user-attachments/assets/817e1db4-5c8e-4e67-9d5f-db895327c618"
+    width="48" 
+    height="48" 
+    style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" 
+    alt="NSearch Logo"
+>
     NSearchAPI
 </h1>
 <h4 align="center">
