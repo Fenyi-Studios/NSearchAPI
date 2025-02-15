@@ -1,4 +1,4 @@
-<img style="width: 100%; height: auto;" alt="NSearch Logo" src="https://github.com/user-attachments/assets/0bf00334-65f5-4c79-98de-a325607c4f72">
+<img style="width: 100%; height: 50%; object-fit: cover;" alt="NSearch Logo" src="https://github.com/user-attachments/assets/0bf00334-65f5-4c79-98de-a325607c4f72">
 
 <h1 align="center">
     <img width="48" height="48" style="border-radius: 10px;" alt="NSearch Logo" src="https://github.com/user-attachments/assets/817e1db4-5c8e-4e67-9d5f-db895327c618">
