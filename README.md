@@ -7,7 +7,9 @@
     爬虫 Bing 搜索结果接口方便开发。
 </h4>
 
-<div align="center"><img src="https://github.com/user-attachments/assets/21142d43-9074-43f1-9a94-60d2bb003672" /><img width="149" alt="image" src="https://github.com/user-attachments/assets/1165a6cf-d40e-4f42-af8a-10c8cf1ddea5" />
+
+<div align="center"><img src="https://github.com/user-attachments/assets/21142d43-9074-43f1-9a94-60d2bb003672" /><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/1165a6cf-d40e-4f42-af8a-10c8cf1ddea5" /><br><img width="272" alt="image" src="https://github.com/user-attachments/assets/f6ec5580-46e1-4ad7-9324-72945cf39a00" />
+
 </div>
 
 <h4 align="center">
@@ -19,7 +21,7 @@
     <a href="#">Deutsch</a> | 
     <a href="#">Français</a> 
 </h4>
-<h6 align="center"><i>* 只有简体中文其他都是装的</i></h6>
+<h6 align="center"><i>* 文档只有简体中文其他都是装的，其它也都是装的（doge</i></h6>
 <br>
 
 # 📚 功能特点
@@ -148,6 +150,8 @@ GET /clrcache
 # 🎉 致谢
 
 感谢所有贡献者对项目的支持！
+
+<img width="134" alt="image" src="https://github.com/user-attachments/assets/fd03c058-8185-4a4a-95db-6169ceb8117e" />
 
 ---
 
