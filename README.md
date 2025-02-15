@@ -22,7 +22,7 @@
     <a href="#">Deutsch</a> | 
     <a href="#">Français</a> 
 </h4>
-<h6 align="center"><i>* 文档只有简体中文其他都是装的，其它也都是装的</i><br><i>* 别喷，我们盐豆不盐了（doge</i></h6>
+<h6 align="center"><i>* 文档只有简体中文其他都是装的，其它功能/荣誉也都是装的</i><br><i>* 别喷，我们盐豆不盐了（doge</i></h6>
 <br>
 
 # 📚 功能特点
